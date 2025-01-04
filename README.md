@@ -3,7 +3,7 @@ These are simple projects with the minimal configuration needed to run "Quartz",
 These examples demonstrate how to use each approach to solve different types of background processing tasks in .NET applications.
 
 # When should you use each one?
-__Quatz:__ when you have to process some data in a specific date time. <br />
+__Quatz:__ when you have to process some data in a specific day/date time. <br />
 _Ex.: Imagine you need to send a daily report at 8 AM_
 <br /><br />
 
