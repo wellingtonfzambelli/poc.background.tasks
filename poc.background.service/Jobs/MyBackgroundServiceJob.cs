@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 
 namespace poc.background.service.Jobs;
 
-internal class MyBackgroundServiceJob : BackgroundService
+internal sealed class MyBackgroundServiceJob : BackgroundService
 {
     private readonly ILogger<MyBackgroundServiceJob> _logger;
 

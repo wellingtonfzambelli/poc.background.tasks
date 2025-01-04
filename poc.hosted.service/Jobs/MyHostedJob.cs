@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 
 namespace poc.hosted.service.Jobs;
 
-internal class MyHostedJob : IHostedService
+internal sealed class MyHostedJob : IHostedService
 {
     private readonly ILogger<MyHostedJob> _logger;
     private Timer _timer;
