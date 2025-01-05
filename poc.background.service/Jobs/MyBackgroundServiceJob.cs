@@ -23,4 +23,10 @@ internal sealed class MyBackgroundServiceJob : BackgroundService
 
         _logger.LogInformation("Background service was cancelled.");
     }
+
+    public override Task StopAsync(CancellationToken cancellationToken)
+    {
+        _logger.LogInformation("Application has finished");
+        return Task.CompletedTask;
+    }
 }
